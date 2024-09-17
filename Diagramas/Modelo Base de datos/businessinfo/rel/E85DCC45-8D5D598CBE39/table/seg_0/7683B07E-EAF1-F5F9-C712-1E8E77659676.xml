@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7683B07E-EAF1-F5F9-C712-1E8E77659676" name="Cliente">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:05:41 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="90D384E9-1086-F185-169F-05BD47BDE6ED">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:06:19 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="982A2D4C-0920-F625-6613-EAD812A89FE1">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:07:15 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="C3E4D138-F8B9-1F2B-E7F9-2979923DE090">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:07:15 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="687B9BCD-18CF-1C4C-2048-841CB24815F7">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:07:15 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DE7F50A-6C16-9348-3671-1F464F89250C" name="Cliente_PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:06:19 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D384E9-1086-F185-169F-05BD47BDE6ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

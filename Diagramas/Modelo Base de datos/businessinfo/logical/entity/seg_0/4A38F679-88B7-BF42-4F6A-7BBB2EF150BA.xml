@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A38F679-88B7-BF42-4F6A-7BBB2EF150BA" name="pagos">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:06 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPago" id="FC0C6096-1F02-E5D8-DAF9-9DC581003A66">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:10 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodoPago" id="48821643-DA43-2C29-148C-447F443A2B51">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:19 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="montoTotal" id="842243DA-C287-0728-DE30-F21585F7B838">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:32 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentajeReserva" id="C66AC637-E26C-0F2D-00D7-628F0F5B84F6">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:44 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qrCode" id="E733F403-9E64-71FC-4798-87F70CFF31B0">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:57 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6FDD4DA-C8ED-FED0-2334-7261673C5D85" name="pagos PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:32:14 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC0C6096-1F02-E5D8-DAF9-9DC581003A66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

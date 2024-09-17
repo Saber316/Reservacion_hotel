@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F108896C-1538-3D47-D25C-18788A1D5184" name="Pagos">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:25:28 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPago" id="61B3EC76-499F-4039-ADD0-8371C4F94481">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MetodoPago" id="EA5969E2-B1DD-55AA-5EA6-9E8B93456C1E">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MontoTotal" id="8160D198-9F33-CB82-4EFE-EB2BDEF97503">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PorcentajeReserva" id="379676CA-FB5E-02E5-48F1-FBE86779EEA7">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qrCode" id="08DB9602-DE03-94AD-AD5F-71858AEBD57C">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservas_IdReserva" id="5991419D-D507-99DB-E795-C228991014EC">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:39:50 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1EC7D65-A73F-4F22-A80B-05EE71031517" referredColumn="8E563D90-8FF5-3C09-A8D0-2418BFF25954"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7811DEDD-9CC4-9F3B-5335-0820ECC9E969" name="Pagos_PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61B3EC76-499F-4039-ADD0-8371C4F94481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="607D3045-D2C5-8476-C3FA-49D1D9FAEB44" name="Pagos_Reservas_FK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:39:50 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5991419D-D507-99DB-E795-C228991014EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

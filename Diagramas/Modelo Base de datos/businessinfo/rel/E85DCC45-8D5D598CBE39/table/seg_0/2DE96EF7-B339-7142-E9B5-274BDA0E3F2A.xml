@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DE96EF7-B339-7142-E9B5-274BDA0E3F2A" name="Reservas">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:22:16 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdReserva" id="8E563D90-8FF5-3C09-A8D0-2418BFF25954">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="3FD903C7-6C93-2F92-F5FC-DC99AD646C45">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="75E40746-E14A-03DE-26F6-367A29F608DE">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT030</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MontoReserva" id="B6FF521F-0126-8F65-CDE9-C7E93F41E6B5">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoReserva" id="7D7C751F-8B78-4342-ADC0-4A3215539D1A">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_IdCliente" id="8827A914-DC72-11E4-BB95-45F62220C93E">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:37:21 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD59BFD-92A0-05B4-42F8-0D47B0A0C959" referredColumn="90D384E9-1086-F185-169F-05BD47BDE6ED"/>
+</associations>
+</Column>
+<Column name="Administradores_IdAdmin" id="4CB66DB9-E6F1-2284-276B-7AF4AAEEB24D">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:40:34 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C94CFD-E8F1-41BE-4163-1D76C61452D0" referredColumn="51C580E7-A9C8-D31D-660A-DCAE9F362BE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E58747F-8050-6BEF-2022-08040679020E" name="Reservas_PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:07 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E563D90-8FF5-3C09-A8D0-2418BFF25954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E6F0990-6B95-48A2-E5CC-EC50880AC734" name="Reservas_Cliente_FK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:38:05 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8827A914-DC72-11E4-BB95-45F62220C93E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B4FC6DE-5FCC-CC78-1361-C5ECF6310B06" name="Reservas_Administradores_FK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:40:34 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB66DB9-E6F1-2284-276B-7AF4AAEEB24D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

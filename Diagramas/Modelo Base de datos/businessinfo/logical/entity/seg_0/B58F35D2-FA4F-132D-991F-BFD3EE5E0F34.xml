@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B58F35D2-FA4F-132D-991F-BFD3EE5E0F34" name="Reserva">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:29:29 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idReserva" id="3813E176-4729-670A-8A39-D41F8BAB3BDA">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:29:38 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaInicio" id="F8131784-9C43-B13E-B99F-96418B505473">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:30:12 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFin" id="46E1C86E-AB04-AB64-ADDC-54667B9405C5">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:30:24 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="montoReserva" id="0303F1E9-51F5-FB43-ADB1-2B2F4F2A340A">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:30:36 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoReserva" id="0A906BCF-4BFF-1D8E-3634-83DEFC23A13C">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:30:48 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC0776BC-A3B8-6359-F66D-DE1D8F2FBD11" name="Reserva PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:36:05 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<engineerTo>
+<item key="E85DCC45-BBFC-C016-5034-8D5D598CBE39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

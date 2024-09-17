@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8773BAAB-F437-E6B0-6C6E-699B4BFCAB05" name="Administradores">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:24:32 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAdmin" id="51C580E7-A9C8-D31D-660A-DCAE9F362BE9">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:25:24 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="0B268E85-21B5-5AE0-4CC5-ADE8B9E077F6">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:25:24 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rol" id="0731D1A0-0F14-26E4-1AD8-01DF258A1410">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:25:24 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotel_IdHotel" id="F5A4B09B-9AD5-F221-3C69-FDD11B983447">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:41:55 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C31EA9C-1E04-CDE5-2B8B-CD4D45FED90F" referredColumn="30DE6319-631D-EB48-B360-40DD0CF1984F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D65B8990-5F86-512D-F89B-956D47403B16" name="Administradores_PK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 05:25:24 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51C580E7-A9C8-D31D-660A-DCAE9F362BE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05673A77-127A-E5B9-B1F5-A22378201EE8" name="Administradores_Hotel_FK">
+<createdBy>Saber</createdBy>
+<createdTime>2024-09-17 16:41:55 UTC</createdTime>
+<ownerDesignName>Modelo Base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A4B09B-9AD5-F221-3C69-FDD11B983447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
