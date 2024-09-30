@@ -1,0 +1,16 @@
+<div class="confirmacion-container">
+  <h2 class="titulo-confirmacion">Confirmación de Reserva</h2>
+  <p><strong>Nombre:</strong> {{ datosReserva.nombre }}</p>
+  <p><strong>Correo Electrónico:</strong> {{ datosReserva.email }}</p>
+  <p><strong>Teléfono:</strong> {{ datosReserva.telefono }}</p>
+  <p><strong>Fecha de Ingreso:</strong> {{ datosReserva.fechaIngreso }}</p>
+  <p><strong>Fecha de Salida:</strong> {{ datosReserva.fechaSalida }}</p>
+  <p><strong>Número de Habitaciones:</strong> {{ datosReserva.numeroHabitaciones }}</p>
+  <p><strong>Tipo de Habitación:</strong> {{ datosReserva.tipoHabitacion }}</p>
+  <p><strong>Precio Total:</strong> ${{ datosReserva.precio }}</p>
+  <p><strong>Preferencias:</strong> {{ datosReserva.preferencias }}</p>
+
+
+
+  <button (click)="confirmarReserva()">Confirmar Reserva</button>
+</div>
