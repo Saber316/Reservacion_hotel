@@ -1,0 +1,14 @@
+<div class="exitosa-container">
+    <h2 class="titulo-exitosa">Reserva Confirmada</h2>
+    <p>¡Gracias por tu reserva!</p>
+    <p><strong>Detalles de la Transacción:</strong></p>
+    <p><strong>Monto Total:</strong> ${{ datosReserva.precio }}</p>
+    <p><strong>Tipo de Habitación:</strong> {{ datosReserva.tipoHabitacion }}</p>
+    <p><strong>Número de Habitaciones:</strong> {{ datosReserva.numeroHabitaciones }}</p>
+    <p><strong>Fecha de Ingreso:</strong> {{ datosReserva.fechaIngreso }}</p>
+    <p><strong>Fecha de Salida:</strong> {{ datosReserva.fechaSalida }}</p>
+    <p><strong>Preferencias:</strong> {{ datosReserva.preferencias }}</p>
+    
+    <button (click)="volver()">Volver a la Página Principal</button>
+  </div>
+  

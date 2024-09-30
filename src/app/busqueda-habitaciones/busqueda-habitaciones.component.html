@@ -1,0 +1,20 @@
+<!-- Formulario de búsqueda -->
+<label for="fechaIngreso">Fecha de Ingreso:</label>
+<input type="date" id="fechaIngreso" [(ngModel)]="fechaIngreso" required>
+
+<label for="fechaSalida">Fecha de Salida:</label>
+<input type="date" id="fechaSalida" [(ngModel)]="fechaSalida" required>
+
+<button (click)="buscarHabitaciones()">Buscar Habitaciones</button>
+
+<div *ngFor="let habitacion of resultados">
+  <h3>{{ habitacion.tipo }}</h3>
+  <p>Precio: ${{ habitacion.precio }}</p>
+  <p *ngIf="habitacion.ocupada">Estado: Ocupada</p>
+  <p *ngIf="!habitacion.ocupada">Estado: Disponible</p>
+</div>
+
+<!-- Botón "Reservar Ahora" al final -->
+<div *ngIf="hayHabitacionesDisponibles()">
+  <button (click)="reservarAhora()">Reservar Ahora</button>
+</div>

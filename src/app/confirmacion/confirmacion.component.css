@@ -1,0 +1,26 @@
+.confirmacion-container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrando el texto */
+  }
+  
+  .titulo-confirmacion {
+    font-size: 2rem; /* Tamaño de fuente grande */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Color del texto */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Tamaño de fuente de los párrafos */
+    margin: 10px 0; /* Espaciado vertical entre párrafos */
+    color: #555; /* Color del texto de los párrafos */
+  }
+  
+  strong {
+    color: #007BFF; /* Color azul para los textos en negrita */
+  }
+  
